@@ -1,17 +1,17 @@
 // hey there, kindly read this file till the end for better configuration
 
 global.settings = {
-  OWNER_NUMBERS: "1234564789", // your number with country code
-  OWNER_NAME: 'シ', // your owner name 
+  OWNER_NUMBERS: "2347064158438", // your number with country code
+  OWNER_NAME:'𝔇𝔞𝔯𝔨 𝔖𝔱𝔢𝔢𝔷𝔢 𝔏𝔬𝔫𝔢𝔯™', // your owner name 
   BOT_NAME: 'Kord AI', // your preferred bot name
   SESSION_ID: '', // replace your_sessionid with yours and make sure its inside the 
-  INVINCIBLE_MODE: true, // toogle invincible mode 
-  WORK_MODE: 'public',
+  INVINCIBLE_MODE: false, // toogle invincible mode 
+  WORK_MODE: 'private',
   TIME_ZONE: "Africa/Lagos",
-  ANTI_VIEWONCE: true,
+  ANTI_VIEWONCE: false,
   READ_ALL_MESSAGES: false,
   AUTO_READ_STATUS: true,
-  PREFIX: [".", "/", "!"],
+  PREFIX: [",", "'", "🧍"],
   REJECT_CALLS: false,
   GROUP_EVENTS: false,
   DEFAULT_TRANSLATION_LANG: "en",
@@ -19,11 +19,11 @@ global.settings = {
   MAX_COMMANDS_PER_MINUTE: 100,
   MAX_DOWNLOAD_SIZE: 100,
   AUTO_LIKE_STATUS: true,
-  AUTO_LIKE_EMOJI: '✨',
+  AUTO_LIKE_EMOJI: '♥️',
   BANKING_DETAILS: {
-    bank: "Kord-Ai Bank", // the name of your preferred bank
-    acc_number: "1234567890", // account number for your preferred bank
-    acc_name: "MyAccountName" // name of your bank
+    bank: "Opay", // the name of your preferred bank
+    acc_number: "9061786287", // account number for your preferred bank
+    acc_name: "Solomon Anthony" // name of your bank
   },
   /* You can also replace the numbers with your addresses if you're using crypto, a command for this will come soon. */
   API_KEYS: {
@@ -31,8 +31,8 @@ global.settings = {
   },
   isHackEnable: true,
   SAFE_SEARCH: true,
-  REJECT_CALLS: true,
-  SEND_WELCOME_MESSAGE: false,
+  REJECT_CALLS: false,
+  SEND_WELCOME_MESSAGE: true,
   WELCOME_MESSAGE: "👋 Welcome to the group! We're glad to have you here. 😊",
   DELETE_WA_LINKS: false,
   ANTI_DELETE_ENABLED: true,
